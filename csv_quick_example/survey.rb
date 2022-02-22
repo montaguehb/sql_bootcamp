@@ -9,16 +9,16 @@ class Survey
     end
 
     def open_file
-        just_read = CSV.read(filename)
-        #table = CSV.parse(File.read(filename), headers: true)    
+        # just_read = CSV.read(filename)
+        table = CSV.parse(File.read(filename), headers: true)    
     end
 
     def display_countent
-        open_file.each {|array| puts array.join(", ")}
+        puts open_file #.each {|array| puts array.join(", ")}
     end
 end
 
-survey = Survey.new("cigarette-smoking-behaviour-2018-census-csv.csv")
+survey = Survey.new("cigarette-csv.csv")
 survey.display_countent
 
 =begin

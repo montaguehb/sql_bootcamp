@@ -14,7 +14,7 @@ sqlite3 people.db
 
 ```sql
 CREATE TABLE people (id INTEGER PRIMARY KEY, name TEXT); 
-```   
+```
 
 ```sql
 .quit 
@@ -32,15 +32,18 @@ Make a new entry:
 ```sql
 INSERT INTO people (name) VALUES ("Matteo");
 ```
+
 See the table
+
 ```sql
 SELECT * FROM people;
 ```
+
 Now, add some people from the study group
 
 Open up DB browser, look at the database there
 
-Run sql scripts: 
+Run sql scripts
 
 `sqlite3 pets_database.db < 02_add_column_to_cats.sql`
 
@@ -51,7 +54,7 @@ Run sql scripts:
 
 ## Challenges
 
-1. Write the SQL to return all of the rows in the artists table?
+1. Write the SQL to return all of the rows in the artists table
 
 ```SQL
 

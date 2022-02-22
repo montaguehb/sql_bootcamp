@@ -45,7 +45,7 @@ Open up DB browser, look at the database there
 
 Run sql scripts
 
-`sqlite3 pets_database.db < 02_add_column_to_cats.sql`
+`sqlite3 people.db < 01_populate_table.sql`
 
 #### Coding challenges
 
